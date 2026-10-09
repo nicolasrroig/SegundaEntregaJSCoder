@@ -1,11 +1,11 @@
 
-const mat = 3;
+const mat = 4;
 let matemática;
 let lengua;
 let física;
 let i = 1;
 
-console.log("Hola Alumno, vamos a calcular el promedio de tus tres materias: ");
+alert("Hola Alumno, vamos a calcular el promedio de tus tres materias: ");
 
 do {
 
@@ -19,6 +19,6 @@ do {
 
     i++;
 
-} while (mat!=i);
+} while (mat>i);
 
-console.log("El promedio de tus notas es: " + ((matemática + lengua + física) / 3));
+alert("El promedio de tus notas es: " + parseInt((matemática + lengua + física) / 3));
